@@ -1,0 +1,12 @@
+procedure DiagonalPesada4Azul(){
+  repeat(4){
+    PonerBolitas()
+    Mover(Norte)
+    Mover(Este)
+  }
+}
+procedure PonerBolitas(){
+  repeat(21){
+      Poner(Azul)      
+    }
+}

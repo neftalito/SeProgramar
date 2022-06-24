@@ -1,0 +1,7 @@
+program{
+  Poner(Rojo)
+  repeat(3){
+    Mover(Este)
+    Poner(Rojo)
+  }
+}

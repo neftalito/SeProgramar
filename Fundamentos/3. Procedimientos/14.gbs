@@ -1,0 +1,17 @@
+procedure DibujarLineaColorida(){
+  PonerBolitas()
+  repeat(3){
+    Mover(Este)
+    PonerBolitas()
+  }
+  IrAlBorde(Oeste)
+}
+procedure PonerBolitas(){
+  Poner(Rojo)
+  Poner(Verde)
+  Poner(Azul)
+  Poner(Negro)
+}
+program{
+  DibujarLineaColorida()
+}

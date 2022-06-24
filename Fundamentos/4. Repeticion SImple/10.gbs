@@ -1,0 +1,7 @@
+procedure LineaNegra4Este(){
+  Poner(Negro)
+  repeat(3){
+    Mover(Este)
+    Poner(Negro)
+  }
+}

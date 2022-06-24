@@ -1,0 +1,9 @@
+program{
+  repeat(2){
+    Poner(Rojo)
+  }
+  Mover(Este)
+  repeat(2){
+    Poner(Rojo)
+  }
+}
