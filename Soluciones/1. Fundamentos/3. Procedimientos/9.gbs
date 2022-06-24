@@ -1,0 +1,8 @@
+procedure Poner9Rojas(){
+  repeat(3){
+    Poner3Rojas()
+  }
+}
+program{
+  Poner9Rojas()
+}

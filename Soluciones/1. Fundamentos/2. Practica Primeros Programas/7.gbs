@@ -1,0 +1,18 @@
+program{
+  Sacar(Verde)
+repeat(2){
+  Mover(Este)
+  Sacar(Verde)
+}
+repeat(2){
+  Mover(Norte)
+  Sacar(Verde)
+}
+repeat(2){
+  Mover(Oeste)
+  Sacar(Verde)
+}
+Mover(Sur)
+Sacar(Verde)
+Mover(Sur)
+}

@@ -1,0 +1,13 @@
+procedure Cambiar(){
+  Sacar(Rojo)
+  Poner(Verde)
+}
+program{
+  Cambiar()
+  Mover(Este)
+  Cambiar()
+  Mover(Norte)
+  Cambiar()
+  Mover(Oeste)
+  Cambiar()
+}

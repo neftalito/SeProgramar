@@ -1,0 +1,26 @@
+procedure PonerAzulesI(){
+  repeat(4){
+    Poner(Azul)
+    Mover(Oeste)
+  }
+  Poner(Azul)
+}
+procedure PonerAzulesD(){
+  repeat(4){
+    Poner(Azul)
+    Mover(Este)
+  }
+  Poner(Azul)
+}
+program{
+  PonerAzulesD()
+  repeat(2){
+    Mover(Norte) 
+  }
+  PonerAzulesI()
+  Mover(Sur)
+  repeat(2){
+    Mover(Este)
+  }
+  Poner(Rojo)
+}

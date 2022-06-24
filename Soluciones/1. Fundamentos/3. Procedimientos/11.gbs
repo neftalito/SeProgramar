@@ -1,0 +1,11 @@
+procedure DibujarDosPuntas(){
+  DibujarPuntaNegra()
+  repeat(2){
+    Mover(Norte)
+  }
+  Mover(Este)
+  DibujarPuntaNegra()
+}
+program{
+  DibujarDosPuntas()
+}
