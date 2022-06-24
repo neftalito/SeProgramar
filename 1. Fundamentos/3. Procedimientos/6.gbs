@@ -1,8 +1,0 @@
-procedure Poner3Verdes(){
-  repeat(3){
-    Poner(Verde)
-  }
-}
-program{
-  Poner3Verdes()
-}

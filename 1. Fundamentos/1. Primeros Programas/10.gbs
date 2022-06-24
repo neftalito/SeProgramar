@@ -1,7 +1,0 @@
-program {
-  Poner(Rojo)
-  Poner(Rojo)
-  Poner(Azul)
-  Poner(Verde)
-  Poner(Rojo)
-}

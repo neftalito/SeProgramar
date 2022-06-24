@@ -1,5 +1,0 @@
-program{
-  Poner3Verdes()
-  Mover(Este)
-  Poner3Verdes()
-}

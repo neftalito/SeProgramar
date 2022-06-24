@@ -1,5 +1,0 @@
-procedure MoverOeste10() {
-  repeat(10) {
-    Mover(Oeste)
-  }
-}

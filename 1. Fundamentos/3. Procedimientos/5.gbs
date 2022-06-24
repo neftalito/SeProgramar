@@ -1,7 +1,0 @@
-procedure PonerNegroYRojo() {
-	Poner(Negro)
-	Poner(Rojo)
-}
-program{
-  PonerNegroYRojo()
-}

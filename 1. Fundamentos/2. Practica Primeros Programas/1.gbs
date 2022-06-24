@@ -1,5 +1,0 @@
-program {
-  Poner(Rojo)
-  Mover(Este)
-  Poner(Negro)
-}
