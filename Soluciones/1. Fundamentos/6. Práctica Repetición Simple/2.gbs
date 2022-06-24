@@ -1,0 +1,10 @@
+procedure BandaDiagonal4(){
+  Diagonal4AzulVolviendo()
+  repeat(2){
+    Mover(Norte)
+    Diagonal4AzulVolviendo()
+  }
+  repeat(2){
+    Mover(Sur)
+  }
+}

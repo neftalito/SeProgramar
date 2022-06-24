@@ -1,0 +1,8 @@
+procedure DibujarLinea3(color){
+  Poner(color)
+  repeat(2){
+    Mover(Este)
+    Poner(color) 
+  }
+  VolverAtras()
+}

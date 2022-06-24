@@ -1,0 +1,13 @@
+procedure GuardaEnL(){
+  PonerAzulejo()
+  HacerLinea(Este)
+  MoverN(2,Oeste)
+  HacerLinea(Norte)
+  MoverN(2,Sur)
+}
+procedure HacerLinea(direccion){
+  repeat(2){
+    Mover(direccion)
+    PonerAzulejo()
+  }
+}

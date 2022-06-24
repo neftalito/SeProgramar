@@ -1,0 +1,12 @@
+procedure GuardaDe5(){
+  HacerGuarda()
+  repeat(4){
+    Mover(Este)
+    HacerGuarda()
+  }
+}
+procedure HacerGuarda(){
+    Poner(Verde)
+    PonerN(5,Negro)
+    PonerN(9,Rojo)
+}
