@@ -1,0 +1,7 @@
+procedure CompletarCelda(){
+  if(hayBolitas(Negro)){
+    Poner(Azul)
+    Poner(Verde)
+    Poner(Rojo)
+  }
+}
