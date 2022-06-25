@@ -1,0 +1,3 @@
+function hayLimite(){
+  return(estoyEnUnBorde() || estoyRodeadoDe(Rojo))
+}

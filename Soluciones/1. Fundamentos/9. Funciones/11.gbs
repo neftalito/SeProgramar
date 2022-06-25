@@ -1,0 +1,4 @@
+function hayBolitasLejosAl(direccion, color, distancia){
+  MoverN(distancia,direccion)
+  return(hayBolitas(color))
+}
