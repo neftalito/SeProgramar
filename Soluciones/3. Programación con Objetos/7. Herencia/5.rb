@@ -2,9 +2,11 @@ class Dispositivo
     def initialize
         @bateria = 100
     end
+    
     def cargar_a_tope!
         @bateria = 100
     end
+
     def descargado?
         @bateria <= 20
     end
