@@ -1,0 +1,15 @@
+procedure MarcarCruz(color){
+  Poner(color)
+  Mover(Norte)
+  Mover(Norte)
+  Poner(color)
+  Mover(Este)
+  Mover(Este)
+  Poner(color)
+  Mover(Sur)
+  Mover(Sur)
+  Poner(color)
+  Mover(Norte)
+  Mover(Oeste)
+  Poner(color)
+}
